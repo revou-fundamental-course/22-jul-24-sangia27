@@ -1,42 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8" />
-    <title><title></title>
+    <meta name="viewport" content="widt-device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\styles.css">
 </head>
+
 <body>
     <nav>
         <header>
-            <div clas="logo"></div> ini title</div>
-
+            <div class="logo-icon"></div>
         </header>
 
-        <section>
-            <a>Home</a>
-            <a>Our Package</a>
-            <a>Call Us</a>
-
+        <section class="nav-container">
+            <a class="nav-item"> Home</a>
+            <a class="nav-item"> Our Package</a>
+            <a class="nav-item"> Call Us</a>
         </section>
     </nav>
 
     <main>
         <article>
             <header>
-                <h1>yotkjl;af</h1>
-
+                <div class="main-title">Your Trust Travel Agent's</div>
+                <div class="sub-title">Your happiness is your happiness</div>
             </header>
-
-            <p> Your hhappines is oUR</p>
         </article>
-
-        <section>
-            <article>
-                
-                
-            </article>
-
-
-        </section>
     </main>
+
+    <div class="content">
+        <div class="testimonial">
+            <img src="https://w7.pngwing.com/pngs/968/78/png-transparent-airplane-airplane-white-airplane-illustration-photography-mode-of-transport-cartoon.png" alt="testimonial image">
+            <p>"liburan jadi menyenangkan bersama Travel Agentku</p>
+            <p>Sartika Sari</p>
+            <p>Ibu Rumah Tangga, 28</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Firts and last name">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+            <label for="options">What are you interested in?</label>
+            <select id="options" name="options">
+                <option value="">Select option</option>
+                <option value="option1">option 1</option>
+                <option value="option2">option 2</option>
+                <option value="option3">option 3</option>
+            </select>
+            <button type="submit">SEND</button>
+        </div>
+    </div>
 </body>
 </html>
