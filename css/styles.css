@@ -197,3 +197,37 @@ nav {
     background-color: aquamarine;
     border-top: 1px solid aqua;
 }
+
+.additional-info p {
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    text-align: left;
+    width: 800px;
+    max-width: 600px;
+    padding: 0px 2%;
+}
+
+.additional-info ul {
+    list-style: none;
+    padding: 40px;
+}
+
+.additional-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.circle-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
