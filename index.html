@@ -1,109 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="widt-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css\styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    
+  </head>
 
-<body>
+  <body>
     <nav>
-        <header>
-            <div class="logo-icon">
-                <img src="https://i0.wp.com/www.sangia.org/wp-content/uploads/2022/04/wp-1649356867298.jpg?fit=564%2C564&ssl=1" alt="logo" class="logo">
-            </div>
-        </header>
+      <header>
+        <div class="logo-icon">
+          <img
+            src="https://i0.wp.com/www.sangia.org/wp-content/uploads/2022/04/wp-1649356867298.jpg?fit=564%2C564&ssl=1"
+            alt="logo"
+            class="logo"
+          />
+        </div>
+      </header>
 
-        <section class="nav-container">
-            <a class="nav-item"> Home</a>
-            <a class="nav-item"> Our Package</a>
-            <a class="nav-item"> Call Us</a>
-        </section>
+      <section class="nav-container">
+        <a class="nav-item"> Home</a>
+        <a class="nav-item"> Our Package</a>
+        <a class="nav-item"> Call Us</a>
+      </section>
     </nav>
 
     <main>
-        <article>
-            <header>
-                <div class="main-title">Your Trust Travel Agent's</div>
-                <div class="sub-title">Your happiness is your happiness</div>
-            </header>
-        </article>
+      <article>
+        <header>
+          <div class="main-title">Your Trust Travel Agent's</div>
+          <div class="sub-title">Your happiness is your happiness</div>
+        </header>
+      </article>
     </main>
 
     <div class="content">
-        <div class="testimonial">
-            <img src="https://w7.pngwing.com/pngs/968/78/png-transparent-airplane-airplane-white-airplane-illustration-photography-mode-of-transport-cartoon.png" alt="testimonial image">
-            <p>"liburan jadi menyenangkan bersama Travel Agentku"</p>
-            <p>Sartika Sari</p>
-            <p>Ibu Rumah Tangga, 28</p>
-        </div>
-        <div class="contact-form">
-            <h2>Contact Us</h2>
-            <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" placeholder="Firts and last name">
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com">
-            <label for="options">What are you interested in?</label>
-            <select id="options" name="options">
-                <option value="">Select option</option>
-                <option value="option1">option 1</option>
-                <option value="option2">option 2</option>
-                <option value="option3">option 3</option>
-            </select>
-            <button type="submit">SEND</button>
-        </div>
+      <div class="testimonial">
+        <img
+          src="https://w7.pngwing.com/pngs/968/78/png-transparent-airplane-airplane-white-airplane-illustration-photography-mode-of-transport-cartoon.png"
+          alt="testimonial image"
+        />
+        <p>"liburan jadi menyenangkan bersama Travel Agentku"</p>
+        <p>Sartika Sari</p>
+        <p>Ibu Rumah Tangga, 28</p>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+        <label for="name">Your Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="name"
+        />
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@gmail.com"
+        />
+        <label for="options">What are you interested in?</label>
+        <select id="options" name="options">
+          <option value="">Select option</option>
+          <option value="option1">Bali</option>
+          <option value="option2">Bandung</option>
+          <option value="option3">Surabaya</option>
+        </select>
+        <button type="submit" onclick="formvallidation">SUBMIT</button>
+      </div>
     </div>
     <div class="additional-info">
-        <p>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</p>
-        <ul>
-            <li><span class="circle-number">1</span> Your firts feature, writen in the form of a benefit statement.</li>
-            <li><span class="circle-number">2</span> Your second feature, writen in the form of a benefit statement.</li>
-            <li><span class="circle-number">3</span> Your third feature, writen in the form of a benefit statement.</li>
-        </ul>
+      <p>
+        Use this space to provide users with more information about your offer.
+        Consider it a follow-up to your headline and explain the benefits of
+        your service or product
+      </p>
+      <ul>
+        <li>
+          <span class="circle-number">1</span> Your firts feature, writen in the
+          form of a benefit statement.
+        </li>
+        <li>
+          <span class="circle-number">2</span> Your second feature, writen in
+          the form of a benefit statement.
+        </li>
+        <li>
+          <span class="circle-number">3</span> Your third feature, writen in the
+          form of a benefit statement.
+        </li>
+      </ul>
     </div>
-    <div>
-
-    </div>
+    <div></div>
     <div class="features">
-        <h2>Our Package</h2>
-        <div class="features-list">
-            <div class="features-item">
-                <h3>Bali</h3>
-                <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik.</p>
-            </div>
-            <div class="features-item">
-                <h3>Japan</h3>
-                <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik.</p>
-            </div>
-            <div class="features-item">
-                <h3>Singapore</h3>
-                <p>The description supports and extends the bullet poin above.</p>
-            </div>
-            <div class="features-item">
-                <h3>Bandung</h3>
-                <p>The description supports and extends the bullet poin above.</p>
-            </div>
-            <div class="features-item">
-                <h3>Surabaya</h3>
-                <p>The description supports and extends the bullet poin above.</p>
-            </div>
-            <div class="features-item">
-                <h3>Third features</h3>
-                <p>The description supports and extends the bullet poin above.</p>
-            </div>                        
+      <h2>Our Package</h2>
+      <div class="features-list">
+        <div class="features-item">
+          <h3>Bali</h3>
+          <p>
+            Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang
+            menarik.
+          </p>
         </div>
+        <div class="features-item">
+          <h3>Japan</h3>
+          <p>
+            Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang
+            menarik.
+          </p>
+        </div>
+        <div class="features-item">
+          <h3>Singapore</h3>
+          <p>The description supports and extends the bullet poin above.</p>
+        </div>
+        <div class="features-item">
+          <h3>Bandung</h3>
+          <p>The description supports and extends the bullet poin above.</p>
+        </div>
+        <div class="features-item">
+          <h3>Surabaya</h3>
+          <p>The description supports and extends the bullet poin above.</p>
+        </div>
+        <div class="features-item">
+          <h3>Third features</h3>
+          <p>The description supports and extends the bullet poin above.</p>
+        </div>
+      </div>
     </div>
     <div class="cta">
-        <h2>Your Closing Argument Headline</h2>
-        <p>Suspense sed egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincindunt risus. Phasellus fringilla odio vel erat fringilla.</p>
-        <button>CALL TO ACTION</button>
+      <h2>Your Closing Argument Headline</h2>
+      <p>
+        Suspense sed egestas rhoncus urna in bibendum. Donec urna neque, euismod
+        sed justo quis, convallis tincindunt risus. Phasellus fringilla odio vel
+        erat fringilla.
+      </p>
+      <button>CALL TO ACTION</button>
     </div>
     <div class="footer">
-        <p>Terms of Service | Privacy Policy</p>
-        <p>© 2024 Sangia</p>
+      <p>Terms of Service | Privacy Policy</p>
+      <p>© 2024 Sangia</p>
     </div>
-</body>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
